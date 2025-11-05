@@ -3,7 +3,7 @@ import os.path
 from git import Repo
 from typing import Any
 
-from src import ado_test_src_file_analyser
+import ado_test_src_file_analyser
 
 
 def get_repo_stats(ado_repo_summary: dict):

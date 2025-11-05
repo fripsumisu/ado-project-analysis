@@ -5,7 +5,7 @@ import requests
 from requests import RequestException
 from requests.utils import DEFAULT_CA_BUNDLE_PATH
 
-from src import ado_repo_analyser
+import ado_repo_analyser
 
 
 def build_proxies(proxy_user: str,
