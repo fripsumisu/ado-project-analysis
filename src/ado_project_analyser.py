@@ -79,9 +79,9 @@ def get_project_details(org_name: str, proj_name: str, token: str, **proxies):
             project_repos.append(cur_repo)
 
         project_summary["projectRepos"] = project_repos
-        report_file_path = f"temp/{proj_name}.json"
+        report_file_path = f"{proj_name}.json"
         print(f"Writing project report summary to {report_file_path}")
-        with open(f'temp/{proj_name}.json', 'w') as ps:
+        with open(report_file_path, 'w') as ps:
             json.dump(project_summary, ps)
 
 

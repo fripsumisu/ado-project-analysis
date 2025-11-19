@@ -24,7 +24,7 @@ args = parser.parse_args()
 # Cmd line script starts.......
 if args.project is None or args.org is None or args.token is None:
     parser.print_help()
-    print(sys.stderr.write(f"ERROR: the script is missing mandatory command line argument!\n"))
+    print(sys.stderr.write(f"ERROR: the script is missing mandatory command line arguments!\n"))
 else:
     pat = args.token
     encoded_token = str(base64.b64encode(bytes(':' + pat, 'ascii')), 'ascii')

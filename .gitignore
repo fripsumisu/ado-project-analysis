@@ -4,3 +4,6 @@
 
 **/temp/*
 
+# ignore json report written to src/
+src/**.json
+
