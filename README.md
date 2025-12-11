@@ -38,3 +38,7 @@ For those behind a corporate proxy, be sure to provide the details of your compa
 ```shell
 python -m ado_project_reporter -p <my-co-proxy-url> -pu <proxy-username> -pp <user-password> -pj <my-project-name> -o <my-ado-org> -tk <my-pat-token>
 ```
+
+## CSV Summary
+To summarise the ado-report JSON out further, there is the [project_summary_to_csv.py](src/project_summary_to_csv.py) for write a summary of each repo in the ADO project to a row in a csv file.
+Be sure to update the input/output file names to suit.

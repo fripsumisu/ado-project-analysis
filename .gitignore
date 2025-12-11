@@ -4,6 +4,7 @@
 
 **/temp/*
 
-# ignore json report written to src/
+# ignore json and csv reports written to src/
 src/**.json
+src/**.csv
 
